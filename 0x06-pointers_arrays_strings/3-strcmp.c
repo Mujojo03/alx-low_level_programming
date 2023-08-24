@@ -2,8 +2,8 @@
 
 /**
  * _strcmp - compares pointers to two strings
- * @s1: a pointer to the first string to be compared to
- * @s2: a pointer to the second string to be compared to
+ * @s1: a pointer to first string
+ * @s2: a pointer to second string
  * Return: s1[i] - s2[i]
  */
 int _strcmp(char *s1, char *s2)
