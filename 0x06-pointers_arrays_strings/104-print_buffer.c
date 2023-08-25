@@ -32,7 +32,7 @@ void print_buffer(char *b, int size)
 				printf(" ");
 			}
 		}
-		for (z = 0, z < y; z++)
+		for (z = 0; z < y; z++)
 		{
 			int c = *(b + x + z);
 
@@ -40,7 +40,7 @@ void print_buffer(char *b, int size)
 			{
 				c = '.';
 			}
-			printf("%%c", c);
+			printf("%c", c);
 		}
 		printf("\n");
 		z += 10;
