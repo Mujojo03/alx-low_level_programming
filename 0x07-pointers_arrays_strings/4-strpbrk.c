@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include "main.h"
+/**
+ * _strpbrk - entry point
+ * @accept: input
+ * @s: input
+ * Return: 0
+ */
+char *_strpbrk(char *s, char *accept)
+{
+	int i, n;
+
+	for (i = 0; s[i] != '\0'; n++)
+	{
+		for (n = 0; accpet[n] != '\0'; n++)
+		{
+			if (s[i] == accpet[n])
+				return (s + i);
+		}
+	}
+	return (NULL);
+}
