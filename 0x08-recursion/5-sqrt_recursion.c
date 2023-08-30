@@ -19,7 +19,7 @@ int _sqrt_recursion(int n)
  * @i: the iterate number
  * Return: natural square root
  */
-int _sqrt(nt n, int i)
+int _sqrt(int n, int i)
 {
 	int sqrt = i * i;
 
